@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b9a9747855910842bc706c351cd95ab, type: 3}
+  m_Name: GameScriptableObject
+  m_EditorClassIdentifier: 
+  PlayerTurnRate: 90
+  PlayerSpeed: 3
+  PlayerFireDelayS: 0.3
+  PlayerInvulnerabilityTimeS: 3
+  PlayerDriftModifier: 0.5
+  PlayerHealth: 3
+  BulletSpeed: 5
+  AsteroidsInitCount: 2
+  SubAsteroidsCount: 2
+  AsteroidMinSpeed: 1
+  AsteroidMaxSpeed: 2
+  AsteroidSplatterAngle: 90
+  EnemyMinSpawnDelayS: 20
+  EnemyMaxSpawnDelayS: 40
+  EnemyMinFireDelayS: 2
+  EnemyMaxFireDelayS: 5
+  EnemySpeed: 2
+  isFriendlyFire: 0
